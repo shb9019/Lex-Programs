@@ -1,0 +1,5 @@
+.vscode
+input.c
+output.c
+lex.yy.c
+a.out
