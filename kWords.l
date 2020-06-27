@@ -4,10 +4,10 @@
     Author: github/shb9019
 **/
 
-%{ 
-%} 
+%{
+%}
   
-%% 
+%%
 k([a-zA-Z])* { printf("%s\n", yytext); }
 
 ([a-zA-Z])* {}
@@ -15,7 +15,7 @@ k([a-zA-Z])* { printf("%s\n", yytext); }
 . {}
 
 \n { return 0; }
-%% 
+%%
 
 int yywrap(){}
 

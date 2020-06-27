@@ -103,7 +103,7 @@
             } else {
                 args[currentArg] = '*' + args[currentArg];
             }
-            cout << " << " << args[currentArg];
+            cout << " >> " << args[currentArg];
             currIndex++;
             while (formatString[currIndex] != '%' && currIndex != formatString.length()) {
                 currIndex++;
